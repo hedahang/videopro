@@ -1,5 +1,6 @@
 <template>
-  <div class="nav_left">
+  <div>
+    <navbar></navbar>
     <el-row>
       <el-col :span="6">
         <memberMenu></memberMenu>
@@ -12,16 +13,17 @@
 </template>
 
 <style>
-  .nav_left{
-    margin-top: 15px;
-  }
 </style>
 
 <script>
+  // 引入elmenetui的导航组件
+  import navbar from "./navbar.vue";
   import memberMenu from './menu.vue';
+
   export default{
     components:{
       memberMenu:memberMenu, //加入组件
+      navbar:navbar
     }
   }
 </script>

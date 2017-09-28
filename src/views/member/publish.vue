@@ -44,8 +44,11 @@
         </el-form-item>
         <el-form-item label="视频上传">
           <div id="videoContainer">
-            <el-button id="selectVideo" type="primary">上传<i class="el-icon-upload el-icon--right"></i></el-button>
+            <el-button id="selectVideo" type="primary">选择视频<i class="el-icon-upload el-icon--right"></i></el-button>
           </div>
+        </el-form-item>
+        <el-form-item label="测试按钮">
+          <el-button type="primary" @click="testBtn">测试按钮</el-button>
         </el-form-item>
       </el-col>
       <el-col :span="12"></el-col>

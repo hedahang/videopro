@@ -1,8 +1,10 @@
 {
   "navbar":[
-    {"nav_id":1,"nav_text":"首页","nav_url":"/","nav_order":1,"nav_pid":0},
-    {"nav_id":2,"nav_text":"健身","nav_url":"/fitness","nav_order":1,"nav_pid":0},
-    {"nav_id":3,"nav_text":"饮食","nav_url":"/diet","nav_order":1,"nav_pid":0},
-    {"nav_id":4,"nav_text":"私人定制","nav_url":"/pit","nav_order":1,"nav_pid":0}
-  ]
+    {"nav_id":1,"nav_text":"首页","nav_url":"/member/","nav_order":1,"nav_pid":0},
+    {"nav_id":2,"nav_text":"健身","nav_url":"/member/fitness","nav_order":1,"nav_pid":0},
+    {"nav_id":3,"nav_text":"饮食","nav_url":"/member/diet","nav_order":1,"nav_pid":0},
+    {"nav_id":4,"nav_text":"私人定制","nav_url":"/member/pit","nav_order":1,"nav_pid":0}
+  ],
+  "token": {"access-token":"d443cb88152d67e3d2c3c1ebb3344e43a9914d08"}
+
 }
